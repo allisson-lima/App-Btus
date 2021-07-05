@@ -97,7 +97,7 @@ export default function Cal() {
                 onChangeText={ (m2) => setM2(m2) }
                 placeholder="Total de Área em m2"
                 keyboardType="numeric"
-                maxLength={3}
+                maxLength={4}
                 />
 
                 <TextInput
@@ -106,6 +106,7 @@ export default function Cal() {
                 onChangeText={ (pessoa) => setPessoa(pessoa)}
                 placeholder="Total de pessoas no ambiente"
                 keyboardType="numeric"
+                maxLength={4}
                 />
                 <TextInput
                 style={style.input}
@@ -113,6 +114,7 @@ export default function Cal() {
                 onChangeText={ (eletro) => setEletro(eletro) }
                 placeholder="Total de Eletroeletrônicos"
                 keyboardType="numeric"
+                maxLength={4}
                 />
                 <TouchableOpacity 
                 style={style.button}

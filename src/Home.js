@@ -42,7 +42,7 @@ export default function Cal() {
                
                 <Text style={style.Title1}>A potência ideal deverá possuir:</Text>
                <Text style={style.Subtitle}> {btus} btus</Text>
-                </View>)
+                </View>)on
         }
     }
         return (
